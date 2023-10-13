@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BARRACA VERSIÓN 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand fw-bold fs-3" href="#">BARRACA VERSION 2</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="carrito.html">Facturación</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="vender.html" aria-current="page">Gestión de stock</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="py-5 text-center">
+                <img class="d-block mx-auto mb-4" src="https://images.unsplash.com/photo-1579444741963-5ae219cfe27c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="" width="350em">
+                <h2>Sistema de Carga de Stock</h2>
+                <p class="lead">Rellena el formulario con la información de cada stock. Es importante no ingresar errores ortográficos.</p>
+            </div>
+
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-md-5 col-lg-4 order-md-last">
+                      <h4 class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="text-danger">Información</span>
+                        <span class="badge bg-danger rounded-pill">!</span>
+                      </h4>
+                      <ul class="list-group mb-3">
+                        <li class="list-group-item d-flex justify-content-between lh-sm">
+                          <div>
+                            <small class="text-body-secondary">
+                                ¡Bienvenidos al sistema de carga de stock de nuestra empresa! Agradecemos tu colaboración en el mantenimiento y seguimiento de nuestro inventario. Rellenar este formulario con precisión es esencial para asegurar un control efectivo de nuestros productos.
+                            </small> <br> <br>
+                            <small class="text-body-secondary">
+                                Si encuentras discrepancias o errores en el stock existente, por favor, comunícalos a tu supervisor o al departamento de gestión de inventario para su corrección.
+                            </small><br><br>
+                            <small class="text-body-secondary">
+                                Asegúrate de guardar cualquier documento o evidencia relacionada con cambios en el stock, como facturas de compra o documentos de remisión.
+                            </small> <br><br>
+                            <small class="text-body-secondary">
+                                Si tienes alguna pregunta o necesitas asistencia, no dudes en ponerte en contacto con el equipo de soporte.
+                            </small>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+
+                <!------------------------------------FORMULARIO DE VENTA --------------------------------->
+
+                    <div class="col-md-7 col-lg-8">
+                      <h4 class="mb-3">Formulario de nuevo stock</h4>
+                        <form class="needs-validation" id="formVenta" novalidate="">
+                            <div class="row g-3">
+                            <div class="col-sm-6">
+                                <label for="nombreProducto" class="form-label">Nombre de producto</label>
+                                <input type="text" class="form-control" id="nombreProducto" placeholder="" value="" required>
+                                <div class="invalid-feedback">
+                                Valid name is required.
+                                </div>
+                            </div>
+                
+                            <div class="col-sm-6">
+                                <label for="precioProducto" class="form-label">Precio</label>
+                                <input min="1" type="number" class="form-control" id="precioProducto" placeholder="$" value="" required>
+                                <div class="invalid-feedback">
+                                Valid price is required.
+                                </div>
+                            </div>
+                
+                            <div class="col-12">
+                                <label for="descripcionProducto" class="form-label">Descripción <span class="text-body-secondary">(Optional)</span></label>
+                                <input type="text" class="form-control" id="descripcionProducto" placeholder="">
+                                <div class="invalid-feedback">
+                                Please enter a valid product description.
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <label for="cantidadProducto" class="form-label">Cantidad</label>
+                                <input min="1" type="number" class="form-control" id="cantidadProducto" placeholder="" required>
+                                <div class="invalid-feedback">
+                                Amount required.
+                                </div>
+                            </div>
+                            </div>
+                
+                            <h4 class="mb-3 mt-4">Operador de carga de stock</h4>
+                
+                            <div class="row gy-3">
+                            <div class="col-md-6">
+                                <label for="cc-name" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombreUsuario" placeholder="" required="">
+                                <small class="text-body-secondary">Nombre completo</small>
+                                <div class="invalid-feedback">
+                                Debes ingresar tu nombre.
+                                </div>
+                            </div>
+                
+                            <div class="col-md-6">
+                                <label for="operadorID" class="form-label">N° identificador</label>
+                                <input type="number" class="form-control" id="operadorID" placeholder="Primeros 5 dígitos de tu cédula de identidad." required="">
+                                <div class="invalid-feedback">
+                                Ingresa tu número de trabajador.
+                                </div>
+                            </div>
+                            </div>
+                            <hr class="my-4">
+                
+                            <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="same-address">
+                            <label class="form-check-label text-muted" for="same-address">                        
+                                <small class="text-body-secondary">Estoy conciente de que la información proporcionada en este formulario es precisa y refleja el stock actual de los productos especificados. Entiendo la importancia de mantener registros precisos y fiables del inventario de nuestra empresa. Aseguro que he revisado la información con detalle y que estoy comprometido a cumplir con los procedimientos y políticas de la empresa relacionados con la gestión del stock.</small>
+                            </label>
+                            </div>
+                            <hr class="my-4">
+                
+                            <hr class="my-4">
+                
+                            <button onclick="addProductoLocalStorage()" class="w-100 btn btn-primary btn-lg" type="button">Actualizar stock</button>
+                        </form>
+                    </div>
+                  </div>
+            </div>
+
+        </section>
+    </main>
+    
+
+    <footer>
+
+    </footer>
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>

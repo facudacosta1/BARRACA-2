@@ -1,0 +1,154 @@
+{
+    "articulos_de_barracas": [
+      {
+        "identificador": "BARRACA001",
+        "nombre": "PORTLAND GRIS SACO 25 kg.",
+        "descripcion": "El cemento Pórtland compuesto CPC 40 Artigas es obtenido por la molienda conjunta de Clinker Pórtland, pequeñas cantidades de yeso, filler calcáreo, escoria granulada de alto horno, y aditivos mejoradores de molienda y calidad.",
+        "cantidad_en_stock": 50,
+        "costo":305
+      },
+      {
+        "identificador": "BARRACA002",
+        "nombre": "Armco Chapa Zinc Pluma 8 Pie 0.90 ancho",
+        "descripcion": "Las chapas para techo ARMCO son las de mejor calidad en plaza. Existen distintas opciones entre las cuales podrá optar según sus necesidades.",
+        "cantidad_en_stock": 30,
+        "costo":129
+      },
+      {
+        "identificador": "BARRACA003",
+        "nombre": "Yeso Cinta Mesh Tape Autodhesiva 45 mts",
+        "descripcion": "Cinta estándar de malla de fibra de vidrio.",
+        "cantidad_en_stock": 75,
+        "costo":89
+      },
+      {
+        "identificador": "BARRACA004",
+        "nombre": "Yeso Tornillo T.1 Punta Mecha",
+        "descripcion": "Caja de 1000 unidades.",
+        "cantidad_en_stock": 40,
+        "costo":250
+      },
+      {
+        "identificador": "060X040",
+        "nombre": "VENTANA ALUMINIO STANDARD SERIE 20 060X040",
+        "descripcion": "Ventana del material aluminio.",
+        "cantidad_en_stock": 20,
+        "costo":40   
+     },
+      {
+        "identificador": "BARRACA005",
+        "nombre": "Acelerante de fraguado para hormigón y morteros Sika-3",
+        "descripcion": "Rápida habilitación de pavimentos y bacheos.Permite obtener altas resistencias iniciales del hormigón o mortero.Facilita el rápido desmolde y puesta en servicio de piezas.",
+        "cantidad_en_stock": 40,
+        "costo":150
+      },
+      {
+        "identificador": "BARRACA006",
+        "nombre": "Yeso Masilla 6 Kg Sinteplast",
+        "descripcion": "Su consistencia cremosa y la facilidad lijado simplifica la aplicación y la terminacion de calidad.",
+        "cantidad_en_stock": 40,
+        "costo":610
+      },
+      {
+        "identificador": "BARRACA007",
+        "nombre": "Yeso Cinta Mesh Tape Autoadhesiva 90 Mts",
+        "descripcion": "Cinta estándar de malla de fibra de vidrio.",
+        "cantidad_en_stock": 40,
+        "costo":298
+      },
+      {
+        "identificador": "BARRACA009",
+        "nombre": "Arena Terciada Fina Mt.3",
+        "descripcion": "Arena Terciada Fina.",
+        "cantidad_en_stock": 40,
+        "costo":988
+      },
+  
+      {
+        "identificador": "BARRACA010",
+        "nombre": "Esmalte Alta Temperatura Negro 1/4 Lts Belco",
+        "descripcion": "Pintura formulada con resinas sintéticas y pigmentos termoestables, capaz de resistir temperaturas continuas de 250ºC y picos de hasta 300ºC..",
+        "cantidad_en_stock": 40,
+        "costo":457
+      },
+  
+      {
+        "identificador": "BARRACA011",
+        "nombre": "Placa De Yeso 1.20 Mts X 2.40 Mts X 12.5 Mm",
+        "descripcion": "Esta placa estándar es la indicada para ser utilizada en paredes, revestimientos y cielorrasos en áreas secas. Se presenta en diversos espesores, anchos y largos. Está pensada para proyectos que van desde una pequeña reforma en el hogar hasta obras de arquitectura de gran escala.",
+        "cantidad_en_stock": 40,
+        "costo":452
+      },
+  
+      {
+        "identificador": "BARRACA012",
+        "nombre": "DESMALEZADORA HYUNDAI C430 43CC (NAFTA)",
+        "descripcion": "Mantené tu jardín en perfecto estado con la desmalezadora HYUNDA.",
+        "cantidad_en_stock": 10,
+        "costo":538
+      },
+  
+      {
+        "identificador": "BARRACA013",
+        "nombre": "Varilla Conformado 8 Mm",
+        "descripcion": "Barras de acero / Redondo conformado.",
+        "cantidad_en_stock": 2,
+        "costo":289
+      },
+  
+      {
+        "identificador": "BARRACA014",
+        "nombre": "Rodillo De Tela 11 Cm.",
+        "descripcion": "Rodillo .",
+        "cantidad_en_stock": 7,
+        "costo": 258
+      },
+  
+      {
+        "identificador": "BARRACA015",
+        "nombre": "Hierro # Perforado 11/4*3/16 P/10 ( Barra )",
+        "descripcion": "Planchuela Perforada.",
+        "cantidad_en_stock": 40,
+        "costo": 786
+      },
+  
+      {
+        "identificador": "BARRACA016",
+        "nombre": "Taladro Atornillador Inalámbrico Makita HP 331 12v- 2Bat",
+        "descripcion": "Potencia del motor mejorada para aplicación de alta velocidad y torque máximo de apriete.",
+        "cantidad_en_stock": 1,
+        "costo": 125
+      },
+  
+      {
+        "identificador": "BARRACA017",
+        "nombre": "Cielo Raso Aqua Antibacterial 1 Lts Belco",
+        "descripcion": "Se obtiene una película satinada o mate, con un contenido de biocidas de amplio espectro que asegura una excelente higiene de la superficie.",
+        "cantidad_en_stock": 11,
+        "costo":340
+      },
+      {
+        "identificador": "BARRACA018",
+        "nombre": "Total Tools Careta Fotocromatica P/Soldar",
+        "descripcion": "-Máscara para soldar automática, oscurece al soldar.",
+        "cantidad_en_stock": 12,
+        "costo": 5200
+      },
+  
+      {
+        "identificador": "BARRACA019",
+        "nombre": "Total Tools Lijadora Rotativa 150 Mm – 450w",
+        "descripcion": "-Gatillo de velocidad variable.",
+        "cantidad_en_stock": 24,
+        "costo": 1000
+      },
+      {
+        "identificador": "BARRACA020",
+        "nombre": "Motosierra Stihl Ms-361",
+        "descripcion": "Motosierra muy robusta para las máximas exigencias. Excelente relación peso/potencia.",
+        "cantidad_en_stock": 2,
+        "costo":7050
+      }
+  
+    ]
+  }
